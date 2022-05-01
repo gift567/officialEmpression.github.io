@@ -1,0 +1,425 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+.releses h2{
+ font-size: 26px;
+ color: black;
+ font-family: sans-serif;
+ margin: 20px;
+
+}
+
+.spotify{
+    display: flex;
+}
+.box{
+    margin-left: 20px;
+}
+
+.box2{
+    padding: 80px;
+}
+.bombshell{
+height: 500px;
+background-image: url('bomb.png');
+background-size: cover;
+}
+
+
+.chanda{
+    height: 500px;
+    background-image: url('kay\ \(2\).png');
+    background-size: cover; 
+}
+.playlist{
+    background-image: url('abel.png');
+    background-size: cover;
+    height: 500px;
+}
+
+.chef{
+    background-image: url('towela.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.chef h2{
+    padding: 200px;
+    font-size: 55px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.music-details{
+    float: right;
+    padding: 150px;
+ 
+}
+
+.music-details h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: black;
+}
+.music-details p{
+    line-height: 40px;
+    display: inline;
+    padding: 0 10px;
+margin-left: 40px;
+    font-size: 20px;
+ 
+}
+
+.fa-youtube{
+    cursor: pointer;
+}
+
+.fa-facebook{
+    cursor: pointer;
+}
+
+.player{
+    margin: auto;
+    opacity: 0.8;
+}
+
+
+.banner{
+    height: 500px;
+margin-top: 50px;
+    background-image: url('k4.png');
+    background-size: cover;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+}
+
+.logo img{
+height: 90px;
+padding: 0 100px;
+margin-top: 10px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px ;
+}
+
+nav ul li{
+    display: inline;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+
+
+
+}
+
+ a .active, a:hover{
+background-color: red;
+transition: .5s;
+color: white;
+
+}
+
+.checkbtn{
+    margin-top: 40px;
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80x;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+
+}
+
+
+
+/* welcome */
+
+
+
+.welcome{
+    padding: 200px;
+  
+}
+.welcome h1{
+
+    font-size: 50px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+.welcome p{
+    margin-left: 190px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* artists */
+
+.main{
+
+    margin: 1%;
+    margin-left: 80px;
+   }
+
+
+.card{
+    width: 25%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+  
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+
+
+}
+
+.title{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+button{
+ margin-top: 40px;
+ margin-bottom: 10px;
+ color: white;
+ border: 1px solid black;
+ background-color: red;
+ border-radius: 5px;
+ padding:10px;
+ width: 200px;
+}
+button:hover{
+ background-color: black;
+ color: white;
+ transition: .5s;
+ cursor: pointer;
+}
+
+
+@media (max-width: 952px){
+    .logo img{
+font-size: 30px;
+padding-left: 50px;
+
+    }
+
+    nav ul li a{
+        font-size: 15px;
+
+    }
+}
+
+
+@media (max-width: 858px){
+    .checkbtn {
+        display: block;
+
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(245, 239, 239);
+    
+        top: 80px;
+        left: -100%;
+        text-align: center;
+opacity: 0.8;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    a .active, a:hover{
+        background: none;
+        color: red;
+    }
+     
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+
+
+
+    
+.welcome h1{
+    display: none;
+   
+ }
+
+ 
+.welcome p{
+    display: none;
+   
+ }
+
+
+ 
+}
+
+@media (max-width: 768px){
+    
+
+    .welcome p{
+        display: none;
+       
+     }
+
+     .welcome h1{
+        display: none;
+     }
+}
+
+
+
+
+
+
+
+/* footer */
+
+
+
+  /* footer */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  .container{
+      max-width: 1170px;
+      margin:auto;
+  }
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  ul{
+      list-style: none;
+  }
+  
+  
+    .footer{
+    background-image: url('kay\ \(8\).png');
+    background-size: cover;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+  }
+  .footer-col h4::before{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom: -10px;
+      background-color: #e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+      margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: #fff;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+      color: #ffffff;
+      padding-left: 8px;
+  }
+  .footer-col .social-links a{
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.2);
+      margin:0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+      color: #24262b;
+      background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }

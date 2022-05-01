@@ -1,0 +1,15 @@
+
+
+
+
+
+.banner{
+    height: 500px;
+    background-image: url('bomb.png');
+    background-size: cover;
+}
+
+.welcome {
+    color: aliceblue;
+    }
+    
